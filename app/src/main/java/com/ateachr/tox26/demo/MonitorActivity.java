@@ -32,12 +32,6 @@ public class MonitorActivity extends Activity implements View.OnClickListener{
 
     private Button buttonUpdate;
     private TextView textViewPurchases;
-    //private ListView listPurchases;
-
-    //ArrayList<String> listItems = new ArrayList<String >();
-    //ArrayAdapter<String> adapter;
-    //String[] mobileArray = {"Android","IPhone","WindowsMobile","Blackberry",
-    //        "WebOS","Ubuntu","Windows7","Max OS X"};
 
     private FirebaseAuth mAuth;
     private FirebaseAuth.AuthStateListener mAuthListener;
@@ -49,13 +43,7 @@ public class MonitorActivity extends Activity implements View.OnClickListener{
 
         buttonUpdate = (Button) findViewById(R.id.buttonUpdate);
         textViewPurchases = (TextView) findViewById(R.id.textViewPurchases);
-        //listPurchases = (ListView) findViewById(R.id.listPurchases);
-        //listPurchases.setAdapter(adapter);
         buttonUpdate.setOnClickListener(this);
-
-
-        //ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,R.layout.activity_list, mobileArray);
-
 
         mAuth = FirebaseAuth.getInstance();
         mAuthListener = new FirebaseAuth.AuthStateListener() {

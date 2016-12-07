@@ -80,7 +80,6 @@ public class SalesActivity extends Activity implements View.OnClickListener{
 
         FirebaseDatabase database = FirebaseDatabase.getInstance();
         DatabaseReference dataPurchases = database.getReference("purchases");
-        //dataPurchases.child("1").setValue(purchase);
         DatabaseReference dataNewPurchase = dataPurchases.push();
         dataNewPurchase.setValue(purchase);
     }
