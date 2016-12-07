@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "73280399714",
+    "firebase_url": "https://fir-3d418.firebaseio.com",
+    "project_id": "fir-3d418",
+    "storage_bucket": "fir-3d418.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:73280399714:android:9f8314f9c389442c",
+        "android_client_info": {
+          "package_name": "com.ateachr.tox26.demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "73280399714-l4fo93ff8ukjmlsj6pg7jdajtt69ta1s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNLq02FOwiLS166KDmhAtfs7Qa4jFGZ8c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
