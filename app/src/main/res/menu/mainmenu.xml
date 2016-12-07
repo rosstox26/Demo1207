@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Purchase"
+        android:id="@+id/menuPurchase" />
+    <item android:title="Monitor"
+        android:id="@+id/menuMonitor" />
+    <item android:title="Logout"
+        android:id="@+id/menuLogout" />
+</menu>

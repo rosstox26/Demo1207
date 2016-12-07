@@ -10,8 +10,45 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.ateachr.tox26.demo.MainActivity">
 
-    <TextView
+    <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:inputType="textPersonName"
+        android:text="a@a.com"
+        android:ems="10"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp"
+        android:id="@+id/editTextLogin" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="aaaaaa"
+        android:ems="10"
+        android:layout_below="@+id/editTextLogin"
+        android:layout_alignLeft="@+id/editTextLogin"
+        android:layout_alignStart="@+id/editTextLogin"
+        android:layout_marginTop="42dp"
+        android:id="@+id/editTextPassword" />
+
+    <Button
+        android:text="Login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"
+        android:id="@+id/buttonLogin" />
+
+    <Button
+        android:text="Register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonLogin"
+        android:layout_alignRight="@+id/buttonLogin"
+        android:layout_alignEnd="@+id/buttonLogin"
+        android:layout_marginTop="34dp"
+        android:id="@+id/buttonRegister" />
 </RelativeLayout>
